@@ -1,0 +1,38 @@
+{
+  "groups": [
+    {
+      "name": "jdbc",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.wang.config.JdbcConfig",
+      "sourceMethod": "dataSource()"
+    },
+    {
+      "name": "jdbc",
+      "type": "com.wang.config.JdbcProperties",
+      "sourceType": "com.wang.config.JdbcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jdbc.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.wang.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.password",
+      "type": "java.lang.String",
+      "sourceType": "com.wang.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.url",
+      "type": "java.lang.String",
+      "sourceType": "com.wang.config.JdbcProperties"
+    },
+    {
+      "name": "jdbc.username",
+      "type": "java.lang.String",
+      "sourceType": "com.wang.config.JdbcProperties"
+    }
+  ],
+  "hints": []
+}
